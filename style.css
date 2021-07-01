@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(247, 247, 247);
+    min-height: 93vh;
+    position: relative;
+}
+
+section h1{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    color: rgb(37, 37, 255);
+    opacity: .5;
+    text-align: center;
+}
+
+small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+    color: rgb(184, 184, 184);
+}
+
+form{
+    max-width: 100%;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, .1);
+}
+
+input{
+    display: blocks;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    font-size: 1.2rem;
+}
+input::placeholder{
+    color: rgb(189, 190, 189);
+}
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 1rem;
+    background-color: #f8f7f7;
+    cursor: pointer;
+}
+
+li.completed{
+    color: rgb(204, 204, 204);
+    text-decoration: line-through;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 3rem;
+    right: 0;
+    color: rgb(199, 199, 199);
+    /* text-align: center; */
+}
+
+.socmed i{
+    margin-bottom: 1rem;
+    margin: 1rem .5rem;
+    color: rgb(199, 199, 199);
+    font-size: 1.2rem;
+}
+
+.socmed i:hover{
+    color: rgb(108, 133, 207);
+}
+
+
